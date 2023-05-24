@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../Image/image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+}
+.container{
+    text-align: center;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Counter{
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:3%;
+}
+.btn-container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 2%;
+}
+.btn-increment{
+background-color: rgb(150, 9, 9);
+color: #fff;
+width: 15%;
+height: 5vh;
+padding: 5px;
+border-radius: 16px;
+border: none;
+}
+.btn-save{
+background-color: rgb(39, 128, 27);
+color: #fff;
+width: 15%;
+height: 5vh;
+padding: 5px;
+border-radius: 16px;
+border: none;
+}
+.btn-clear{
+    background-color: rgb(240, 11, 11);
+    color: #fff;
+    width: 15%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 16px;
+    border: none;
+ } 
+ button:hover{
+    color: yellow;
+    transition: 0s ease-in;
+ }
+.entries{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ================ */
+@media screen and (min-width: 270px) and (max-width: 1000px){
+    body{
+        padding: auto;
+        margin: auto;
+    }
+.btn-increment {
+    background-color: rgb(150, 9, 9);
+    color: #fff;
+    width: 20%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 16px;
+    border: none;
+}
+.btn-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 5%;
+}
+}
